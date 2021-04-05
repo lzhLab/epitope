@@ -1,9 +1,9 @@
 # The directory structure of code
 Model  
 　　├─datas  
-　　│　│　config.ini  
+　　│　│　config.ini　**This is the configuration file.**  
 　　│　│　  
-　　│　├─0_Orig  
+　　│　├─0_Orig　**The directory contains the preprocessing PDB data.**  
 　　│　│　├─antigens  
 　　│　│　│　　　  
 　　│　│　├─epitopes  
@@ -11,11 +11,11 @@ Model
 　　│　│　├─pdbchain  
 　　│　│　│　　　  
 　　│　│　└─RotationAminoInfos  
-　　│　└─filelist  
+　　│　└─filelist　**The directory contains the name list of PDB data.**  
 　　│　　　　　  
-　　└─script  
-　　　　│　Main_1.py  
-　　　　│　Main_2.py  
+　　└─script　**The directory contains this model codes.**  
+　　　　│　Main_1.py　**The first step of main program: Overlapping subgraph clustering.**  
+　　　　│　Main_2.py　**The second step of main program: Training classificaton model.**  
 　　　　│　__init__.py  
 　　　　│　  
 　　　　├─AminoEdge  
@@ -57,6 +57,7 @@ Model
 　　　　　　　　BuildNetWork_1.py  
 　　　　　　　　__init__.py  
 　　　　　　　　  
+
 
 　　　　　　　　　
 
