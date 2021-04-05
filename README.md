@@ -54,8 +54,10 @@ Model
 　　　　│　　　　 preprocessing.py  
 　　　　│　　　　　　　  
 　　　　└─NetWork  
-　　　　　　　　BuildNetWork_1.py　**-> The second step of main program: Training classificaton model.**  
+　　　　　　　　BuildNetWork_1.py　**-> Step 3: Construct the residuel-level weighted graph.**  
 　　　　　　　　__init__.py  
+　　　　　　　　  
+
 　　　　　　　　  
 
 　　　　　　　　  
