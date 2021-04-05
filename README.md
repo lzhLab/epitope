@@ -5,7 +5,7 @@ The model requires several tools to be installed, which are:
 * Pytorch
 * the requried packages in the "requirements.txt"
 
-# The directory structure of code
+# The directory structure of codes
 Model  
 　　├─datas  
 　　│　│　config.ini　**-> This is the configuration file.**  
