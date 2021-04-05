@@ -1,3 +1,10 @@
+# Prerequisite
+The model requires several tools to be installed, which are:  
+* MCL: https://www.micans.org/mcl/
+* Python 3.6.7
+* Pytorch
+* the requried packages in the "requirements.txt"
+
 # The directory structure of code
 Model  
 　　├─datas  
