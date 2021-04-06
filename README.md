@@ -4,7 +4,6 @@ The model requires several tools to be installed, which are:
 * Python 3.6.7
 * Pytorch
 * the requried packages in the "requirements.txt"  
-The command line that installs the required packages is as follow:
   ```
   # pip install -r requirements.txt
   ```
