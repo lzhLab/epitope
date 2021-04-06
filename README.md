@@ -26,7 +26,7 @@ The model requires several tools to be installed, which are:
     # ./Main.sh
     ```
     The results are stored in the directory "./datas/9_Adjust".  
-    **Note:** The shell file needs to be assigned permissions.
+    **Note:** The shell file needs to be assigned permissions before execution.
     ```
     # chmod 755 ./Main.sh
     ```
