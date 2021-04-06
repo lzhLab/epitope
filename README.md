@@ -9,8 +9,8 @@ The model requires several tools to be installed, which are:
   ```
 
 # Usage Demo
-**Note:** You should enter into the root directory of the model ("./Model/"). The sample data have exist in the code directory("./Model/datas/0_Orig"). 
-1. Set the configuration file. The file "config.ini" exists in the path "./Model/datas"
+**Note:** You should enter into the root directory ("./Model/") of the model. The sample data have exist in the code directory ("./Model/datas/0_Orig"). 
+1. Set the configuration file. The file "config.ini" exists in the directory "./Model/datas".
   ```
   PARAMETER
     -BetAtomDist           - the threshold that determines whether there are edges between residues (default: 8.0)
