@@ -8,7 +8,8 @@ The model requires several tools to be installed, which are:
   # pip install -r requirements.txt
   ```
 
-# Usage
+# Usage Example
+**Note: ** You should enter into the root directory of the model ("./Model/"). The sample data have exist in the code directory("./Model/datas"). 
 1. Set the configuration file.
 The parameters needing to be set and their default are as follow:
 * BetAtomDist=8.0  
