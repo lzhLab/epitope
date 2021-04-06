@@ -9,8 +9,8 @@ The model requires several tools to be installed, which are:
   ```
 
 # Usage Demo
-**Note:** You should enter into the root directory ("./Model/") of the model. The sample data have exist in the code directory ("./Model/datas/0_Orig"). 
-1. Set the configuration file. The file "config.ini" exists in the directory "./Model/datas".
+**Note: You should enter into the root directory ("/Model/") of the model.** The sample data have exist in the code directory ("/Model/datas/0_Orig"). 
+1. Set the configuration file. The file "config.ini" exists in the directory "/Model/datas".
   ```
   PARAMETER
     -BetAtomDist           - the threshold that determines whether there are edges between residues (default: 8.0)
@@ -21,7 +21,12 @@ The model requires several tools to be installed, which are:
     -clusterMinSize        - the minimum number of nodes in a cluster (default: 3)
     -min_num_Epitopes      - the minimum ratio of epitope residues in the epitope cluster (default: 0.3)
   ```
-3. 
+2.  Run the program. The command lines are as follow:
+  ```
+  # python ./script/Main_1.py
+  # python ./script/Main_2.py
+  ```
+  The results are stored in the directory "./datas/9_Adjust".
 
 
 # The directory structure of codes
