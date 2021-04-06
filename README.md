@@ -3,10 +3,11 @@ The model requires several tools to be installed, which are:
 * MCL: https://www.micans.org/mcl/
 * Python 3.6.7
 * Pytorch
-* the requried packages in the "requirements.txt"
-```
-pip install -r requirements.txt
-```
+* the requried packages in the "requirements.txt"  
+The command line that installs the required packages is as follow:
+  ```
+  # pip install -r requirements.txt
+  ```
 
 # Usage
 1. Set the configuration file.
