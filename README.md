@@ -23,13 +23,9 @@ The model requires several tools to be installed, which are:
     ```
 2.  Run the program. The command lines are as follows:
     ```
-    # ./Main.sh
+    # python ./script/Main.py
     ```
     The results are stored in the directory "./datas/9_Adjust".  
-    **Note:** The shell file needs to be assigned permissions before execution.
-    ```
-    # chmod 755 ./Main.sh
-    ```
 
                 
 
