@@ -1,9 +1,26 @@
-# Prerequisite
+# Installation
 The model requires several tools to be installed, which are:  
 * MCL: https://www.micans.org/mcl/
 * Python 3.6.7
 * Pytorch
 * the requried packages in the "requirements.txt"
+```
+pip install -r requirements.txt
+```
+
+# Usage
+1. Set the configuration file.
+The parameters needing to be set and their default are as follow:
+* BetAtomDist=8.0  
+The threshold that allows residues to form edges 
+* alpha=0.6
+* thet=5
+* gamma=1
+* thresh=0.5
+* clusterMinSize=3
+* num_allLayers=6
+* min_num_Epitopes=0.3
+
 
 # The directory structure of codes
 Model  
