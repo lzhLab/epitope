@@ -9,8 +9,8 @@ The model requires several tools to be installed, which are:
   ```
 
 # Usage Demo
-**Note: The model needs to be executed in the root directory (i.e. "/Model").** The sample data have exist in the directory "/Model/datas/0_Orig". 
-1. Set the configuration file. The file "config.ini" exists in the directory "/Model/datas".
+**Note: The model needs to be executed in the root directory (i.e. "/Model").** The sample data have exist in the directory "/Model/data/0_Orig". 
+1. Set the configuration file. The file "config.ini" exists in the directory "/Model/data".
     ```
     PARAMETER
       -BetAtomDist           - the threshold that determines whether there are edges between residues (default: 8.0)
@@ -29,7 +29,7 @@ The model requires several tools to be installed, which are:
     ```
     # python ./script/Main.py 1A14 N
     ```
-    The result is stored in the directory "./datas/9_Adjust/Results", i.e.:
+    The result is stored in the directory "./data/Results", i.e.:
     ```
     1A14N.clu
     ```
