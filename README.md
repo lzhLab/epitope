@@ -29,7 +29,7 @@ The model requires several tools to be installed, which are:
     ```
     # python ./script/Main.py 1A14 N
     ```
-    The result is stored in the directory "Model/data/results", i.e.:
+    The result is stored in the directory "/Model/data/results", i.e.:
     ```
     1A14N.clu
     ```
