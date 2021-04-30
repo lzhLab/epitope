@@ -13,7 +13,7 @@ The model requires several tools to be installed, which are:
 1. Set the configuration file. The file "config.ini" exists in the directory "/Model/data".
     ```
     PARAMETER
-      -BetAtomDist           - the threshold that determines whether there are edges between residues (default: 8.0)
+      -BetAtomDist           - the threshold that determines whether there are edges between atoms (default: 8.0)
       -alpha                 - the hyperparameter of the weight formula (default: 0.6)
       -thet                  - the hyperparameter of the contrast weight formula (default: 5)
       -gamma                 - the hyperparameter of the contrast weight formula (default: 1)
