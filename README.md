@@ -9,7 +9,7 @@ The model requires several tools to be installed, which are:
   ```
 
 # Usage Demo
-**Note: The model needs to be executed in the root directory(i.e. "/Model")** The sample data have exist in the code directory (i.e. "/Model/datas/0_Orig"). 
+**Note: The model needs to be executed in the root directory (i.e. "/Model").** The sample data have exist in the directory "/Model/datas/0_Orig". 
 1. Set the configuration file. The file "config.ini" exists in the directory "/Model/datas".
     ```
     PARAMETER
@@ -21,7 +21,7 @@ The model requires several tools to be installed, which are:
       -clusterMinSize        - the minimum number of nodes in a cluster (default: 3)
       -min_num_Epitopes      - the minimum ratio of epitope residues in the epitope cluster (default: 0.3)
     ```
-2.  Run the program. The command lines are as follows:
+2.  Run the program. The command line is as follows:
     ```
     # python ./script/Main.py <pdb_id> <chain_name>
     ```
@@ -29,7 +29,7 @@ The model requires several tools to be installed, which are:
     ```
     # python ./script/Main.py 1A14 N
     ```
-    The results are stored in the directory "./datas/9_Adjust/Results", i.e.:
+    The result is stored in the directory "./datas/9_Adjust/Results", i.e.:
     ```
     1A14N.clu
     ```
