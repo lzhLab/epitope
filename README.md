@@ -8,8 +8,8 @@ The model requires several tools to be installed, which are:
   # pip install -r requirements.txt
   ```
 
-# Usage
-**Note: You should enter into the code root directory ("/Model/") of the model.** The sample data have exist in the code directory ("/Model/datas/0_Orig"). 
+# Usage Demo
+**Note: The model needs to be executed in the root directory(i.e. "/Model")** The sample data have exist in the code directory (i.e. "/Model/datas/0_Orig"). 
 1. Set the configuration file. The file "config.ini" exists in the directory "/Model/datas".
     ```
     PARAMETER
@@ -25,7 +25,13 @@ The model requires several tools to be installed, which are:
     ```
     # python ./script/Main.py <pdb_id> <chain_name>
     ```
-    The results are stored in the directory "./datas/9_Adjust/Results".  
+    For example:
+    ```
+    # python ./script/Main.py 1A14 N
+    ```
+    The results are stored in the directory "./datas/9_Adjust/Results", i.e.:
+    ```
+    1A14N.clu
+    ```
 
-                
 
