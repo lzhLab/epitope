@@ -9,7 +9,7 @@ The model requires several tools to be installed, which are:
   ```
 
 # Usage Demo
-**Note: The model needs to be executed in the root directory (i.e. "/Model").** The sample data have exist in the directory "/Model/data/0_Orig". 
+**Note: The model needs to be executed in the root directory (i.e. "/Model").** The sample data have existed in the directory "/Model/data/0_Orig". 
 1. Set the configuration file. The file "config.ini" exists in the directory "/Model/data".
     ```
     PARAMETER
