@@ -31,7 +31,7 @@ The model requires several tools to be installed, which are:
     ```
     The result is stored in the directory "/Model/data/results", i.e.:
     ```
-    1A14N.clu
+    1a14N.clu
     ```
 
 
