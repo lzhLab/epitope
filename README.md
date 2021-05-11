@@ -27,7 +27,7 @@ The model requires several tools to be installed, which are:
     ```
     For example:
     ```
-    # python ./script/Main.py 1A14 N
+    # python ./script/Main.py 1a14 N
     ```
     The result is stored in the directory "/Model/data/results", i.e.:
     ```
